@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Onboarding() {
   return (
-    <div class="onboarding-wrapper">
+    <div className="onboarding-wrapper">
       <h3>
         Hashtag hijacking typically refers to a situation in which a hashtag
         becomes commandeered by others in the community and is then instead used
@@ -14,8 +14,10 @@ function Onboarding() {
         feed.
         <br />
         <br />
-        <Link to="/guidelines">Begin the experience</Link> to get a complete
-        view of the phenomenon and how to take part in it.
+        <Link to="/the-hijackers-guide/guidelines">
+          Begin the experience
+        </Link>{" "}
+        to get a complete view of the phenomenon and how to take part in it.
       </h3>
     </div>
   );

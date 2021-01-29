@@ -1,6 +1,7 @@
 import { React, useState, useRef } from "react";
 import AboutHover from "../components/aboutHover";
 import Menu from "../components/menu";
+import introVideo from "../assets/about/disclosure_intro.mp4";
 
 function About() {
   const [phase2Opacity, setPhase2Opacity] = useState(0);
@@ -87,7 +88,7 @@ function About() {
                   autoPlay
                   loop
                 >
-                  <source src="/assets/about/disclosure_intro.mp4" />{" "}
+                  <source src={introVideo} />{" "}
                 </video>
                 The K-pop fandoms hijacked many hashtags: <br />
                 <AboutHover text="#StandWithTuckerCarlson" />,{" "}
@@ -148,7 +149,7 @@ function About() {
                     autoPlay
                     loop
                   >
-                    <source src="/assets/about/cover-phase2.mp4" />
+                    <source src="../assets/about/cover-phase2.mp4" />
                   </video>
                   <div
                     className="phase2-title"

@@ -13,11 +13,14 @@ function App() {
 
   return (
     <div className="App">
-      {location.pathname !== "/" && <Nav />}
+      {location.pathname !== "/the-hijackers-guide/" && <Nav />}
       <Switch location={background || location}>
-        <Route exact path="/" children={<Onboarding />} />
-        <Route path="/guidelines" children={<GuidelinesPage />} />
-        <Route path="/disclosure" children={<About />} />
+        <Route exact path="/the-hijackers-guide/" children={<Onboarding />} />
+        <Route
+          path="/the-hijackers-guide/guidelines"
+          children={<GuidelinesPage />}
+        />
+        <Route path="/the-hijackers-guide/disclosure" children={<About />} />
       </Switch>
     </div>
   );
