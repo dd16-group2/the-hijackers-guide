@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/the-hijackers-guide/static/css/main.3dc0f83c.chunk.css",
+    "main.js": "/the-hijackers-guide/static/js/main.79ebcda7.chunk.js",
+    "main.js.map": "/the-hijackers-guide/static/js/main.79ebcda7.chunk.js.map",
+    "runtime-main.js": "/the-hijackers-guide/static/js/runtime-main.a972c062.js",
+    "runtime-main.js.map": "/the-hijackers-guide/static/js/runtime-main.a972c062.js.map",
+    "static/js/2.5e06c6d8.chunk.js": "/the-hijackers-guide/static/js/2.5e06c6d8.chunk.js",
+    "static/js/2.5e06c6d8.chunk.js.map": "/the-hijackers-guide/static/js/2.5e06c6d8.chunk.js.map",
+    "static/js/3.4c4cfa2e.chunk.js": "/the-hijackers-guide/static/js/3.4c4cfa2e.chunk.js",
+    "static/js/3.4c4cfa2e.chunk.js.map": "/the-hijackers-guide/static/js/3.4c4cfa2e.chunk.js.map",
+    "index.html": "/the-hijackers-guide/index.html",
+    "static/css/main.3dc0f83c.chunk.css.map": "/the-hijackers-guide/static/css/main.3dc0f83c.chunk.css.map",
+    "static/js/2.5e06c6d8.chunk.js.LICENSE.txt": "/the-hijackers-guide/static/js/2.5e06c6d8.chunk.js.LICENSE.txt",
+    "static/media/Hashtag Hijacking Insights - 01 - Efficient hashtag.f160062b.pdf": "/the-hijackers-guide/static/media/Hashtag Hijacking Insights - 01 - Efficient hashtag.f160062b.pdf",
+    "static/media/Hashtag Hijacking Insights - 02 - Proper social media.248184d8.pdf": "/the-hijackers-guide/static/media/Hashtag Hijacking Insights - 02 - Proper social media.248184d8.pdf",
+    "static/media/Hashtag Hijacking Insights - 03 - Perfect moment.f5820c76.pdf": "/the-hijackers-guide/static/media/Hashtag Hijacking Insights - 03 - Perfect moment.f5820c76.pdf",
+    "static/media/Hashtag Hijacking Insights - 04 - Effective tactic.f25bd773.pdf": "/the-hijackers-guide/static/media/Hashtag Hijacking Insights - 04 - Effective tactic.f25bd773.pdf",
+    "static/media/document.4b0b2739.svg": "/the-hijackers-guide/static/media/document.4b0b2739.svg",
+    "static/media/left_arrow.57f675f3.svg": "/the-hijackers-guide/static/media/left_arrow.57f675f3.svg",
+    "static/media/logo.6ce24c58.svg": "/the-hijackers-guide/static/media/logo.6ce24c58.svg",
+    "static/media/right_arrow.dde2f75f.svg": "/the-hijackers-guide/static/media/right_arrow.dde2f75f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a972c062.js",
+    "static/js/2.5e06c6d8.chunk.js",
+    "static/css/main.3dc0f83c.chunk.css",
+    "static/js/main.79ebcda7.chunk.js"
+  ]
+}
