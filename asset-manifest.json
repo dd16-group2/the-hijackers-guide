@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/the-hijackers-guide/static/css/main.4641715a.chunk.css",
-    "main.js": "/the-hijackers-guide/static/js/main.6ffac034.chunk.js",
-    "main.js.map": "/the-hijackers-guide/static/js/main.6ffac034.chunk.js.map",
+    "main.js": "/the-hijackers-guide/static/js/main.b299d49b.chunk.js",
+    "main.js.map": "/the-hijackers-guide/static/js/main.b299d49b.chunk.js.map",
     "runtime-main.js": "/the-hijackers-guide/static/js/runtime-main.a972c062.js",
     "runtime-main.js.map": "/the-hijackers-guide/static/js/runtime-main.a972c062.js.map",
     "static/js/2.5e06c6d8.chunk.js": "/the-hijackers-guide/static/js/2.5e06c6d8.chunk.js",
@@ -26,6 +26,6 @@
     "static/js/runtime-main.a972c062.js",
     "static/js/2.5e06c6d8.chunk.js",
     "static/css/main.4641715a.chunk.css",
-    "static/js/main.6ffac034.chunk.js"
+    "static/js/main.b299d49b.chunk.js"
   ]
 }
