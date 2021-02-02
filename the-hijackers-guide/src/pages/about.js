@@ -166,7 +166,9 @@ function About() {
                 />
                 The starting point of this website is the project{" "}
                 <a
-                  href="https://doksavpc.github.io/dd16-phase2-group02/"
+                  href="https://dd16-group2.github.io/stan-wars/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   onMouseEnter={() => {
                     setPhase2Opacity(1);
                   }}
@@ -396,8 +398,8 @@ function About() {
             style={{ position: "absolute", top: "-4em" }}
           />
           <div className="footer-row">
-          <div>A project by</div>
-          <div>Caterina Comini <br/> Lorenzo Di Leonardo <br/>Francesca Mauri<br/>Virginia Migliorini<br/>Fabiola Papini<br/>Sofia Peracchi<br/>Emily Maria Salmaso</div>
+          <div style={{width: '25%'}}>A project by</div>
+          <div style={{width: '25%'}}>Caterina Comini <br/> Lorenzo Di Leonardo <br/>Francesca Mauri<br/>Virginia Migliorini<br/>Fabiola Papini<br/>Sofia Peracchi<br/>Emily Maria Salmaso</div>
           <img src={
             process.env.PUBLIC_URL +
             "/assets/about/authors.jpg"
@@ -407,22 +409,22 @@ function About() {
           />
           </div>
           <div className="footer-row">
-          <div>Faculty <br/><br/> <div style={{fontSize: '0.8em'}}>Michele Mauri <br/>Angeles Briones<br/>Gabriele Colombo<br/>Simone Vantini<br/>Salvatore Zingale</div></div>
-          <div>Teaching assistants <br/><br/> <div style={{fontSize: '0.8em'}}>Antonella Autuori <br/>Andrea Benedetti<br/>Matteo Bettini<br/>Tommaso Elli<br/>Andrea Febres Medina<br/>Beatrice Gobbo</div></div>
+          <div style={{width: '25%'}}>Faculty <br/><br/> <div style={{fontSize: '0.8em'}}>Michele Mauri <br/>Angeles Briones<br/>Gabriele Colombo<br/>Simone Vantini<br/>Salvatore Zingale</div></div>
+          <div style={{width: '25%'}}>Teaching assistants <br/><br/> <div style={{fontSize: '0.8em'}}>Antonella Autuori <br/>Andrea Benedetti<br/>Matteo Bettini<br/>Tommaso Elli<br/>Andrea Febres Medina<br/>Beatrice Gobbo</div></div>
           <div style={{width: '50%', alignSelf: 'flex-start'}}>
           <img src={
             process.env.PUBLIC_URL +
             "/assets/about/density_logo.png"
           }
           alt = "density design"
-          style ={{height: '5em', width: 'auto', margin: '1em'}}
+          style ={{height: '5em', width: 'auto', marginTop: '1em'}}
           />
           <img src={
             process.env.PUBLIC_URL +
             "/assets/about/poli_logo.png"
           }
           alt = "polimi"
-          style ={{height: '5em', width: 'auto', margin: '1em'}}
+          style ={{height: '5em', width: 'auto', marginTop: '1em', marginLeft: '2em'}}
           />
           </div>
           </div>
