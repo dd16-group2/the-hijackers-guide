@@ -1,21 +1,22 @@
 import { Link, useLocation } from "react-router-dom";
+import { ReactComponent as NavButton } from "../navButton.svg";
 
 function Nav() {
   const location = useLocation();
   return (
     <div className="nav-container">
-      <Link to="/the-hijackers-guide/guidelines">
+      {location.pathname === "/the-hijackers-guide/about" && (<Link to="/the-hijackers-guide/guidelines">
         <div className="nav-button">
-          <img alt="" src={process.env.PUBLIC_URL + "/assets/navButton.svg"} />{" "}
+          <NavButton />{" "}
           <div>HOME</div>{" "}
         </div>
-      </Link>
-      <Link to="/the-hijackers-guide/about">
+      </Link>)}
+      {location.pathname !== "/the-hijackers-guide/about" &&(<Link to="/the-hijackers-guide/about">
         <div className="nav-button">
-          <img alt="" src={process.env.PUBLIC_URL + "/assets/navButton.svg"} />{" "}
+          <NavButton />{" "}
           <div>ABOUT</div>{" "}
         </div>
-      </Link>
+      </Link>)}
     </div>
   );
 }

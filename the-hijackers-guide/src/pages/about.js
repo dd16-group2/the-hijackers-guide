@@ -409,7 +409,7 @@ function About() {
           />
           </div>
           <div className="footer-row">
-          <div style={{width: '20%'}}>Faculty <br/><br/> <div style={{fontSize: '0.8em'}}>Michele Mauri <br/>Angeles Briones<br/>Gabriele Colombo<br/>Simone Vantini<br/>Salvatore Zingale</div></div>
+          <div style={{width: '20%'}}>Faculty <br/><br/> <div style={{fontSize: '0.8em'}}>Michele Mauri <br/>Ángeles Briones<br/>Gabriele Colombo<br/>Simone Vantini<br/>Salvatore Zingale</div></div>
           <div style={{width: '27%'}}>Teaching assistants <br/><br/> <div style={{fontSize: '0.8em'}}>Antonella Autuori <br/>Andrea Benedetti<br/>Matteo Bettini<br/>Tommaso Elli<br/>Andrea Febres Medina<br/>Beatrice Gobbo</div></div>
           <div style={{width: '53%', alignSelf: 'flex-start'}}>
           <img src={

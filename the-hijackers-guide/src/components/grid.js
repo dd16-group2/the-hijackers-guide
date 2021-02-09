@@ -651,7 +651,7 @@ function Grid(props) {
               <div className="shadow" />
             </div>
           </div>
-          <div
+          {!isLocked && (<div
             className="handler"
             style={{ left: handlerPosX, top: handlerPosY }}
             onMouseDown={toggleGrab}
@@ -681,7 +681,7 @@ function Grid(props) {
                 isStopped={isLocked}
               />
             </div>
-          </div>
+          </div>)}
         </div>
         <Controller
           sectionId={props.sectionId}
