@@ -22,8 +22,7 @@ function Onboarding() {
   return (
     <div className="onboarding-wrapper">
       <h3>
-        Hashtag hijacking occurs when a hashtag is used improperly
-        to <AboutHover
+        Hashtag hijacking occurs when a hashtag is used to <AboutHover
         src={
           process.env.PUBLIC_URL +
           "/assets/onboarding/mock.png"
@@ -50,6 +49,7 @@ function Onboarding() {
         causes exploiting the power of collective actions.
         <br />
         <br />
+        Explore this website to discover our four guidelines about digital activism.
       </h3>
       <Link to="/the-hijackers-guide/guidelines">
         <div className="start-link">BEGIN THE EXPERIENCE <br/>
